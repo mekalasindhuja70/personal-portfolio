@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Mekala Sindhuja - CSE student, AI/ML developer and full-stack learner.">
+  <title>Mekala Sindhuja | AI/ML & Full-Stack Developer</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home" aria-label="Sindhuja home">
+        <span class="brand-mark">S</span> Sindhuja<span class="brand-dot">.</span>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button"
+              data-bs-toggle="collapse" data-bs-target="#portfolioNav"
+              aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="portfolioNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button id="themeToggle" class="theme-btn" type="button" aria-label="Switch theme">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero / Home -->
+    <section id="home" class="hero-section section-pad">
+      <div class="container position-relative">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+
+        <div class="row align-items-center min-vh-100 pt-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span></span> Available for opportunities</div>
+            <h1 class="hero-title">Hi, I'm Mekala Sindhuja</span><br>
+            </h1>
+            <p class="hero-text">
+              B.Tech Computer Science student passionate about Artificial Intelligence,
+              Machine Learning, Full-Stack Development and building practical software
+              that solves real-world problems.
+            </p>
+
+            <div class="hero-actions d-flex flex-wrap gap-3">
+              <a href="#projects" class="btn btn-primary-custom">
+                View My Work <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline-custom">
+                Let's Connect
+              </a>
+            </div>
+
+            <div class="social-row mt-4">
+              <a href="https://github.com/mekalasindhuja70" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:mekalasindhuja70@gmail.com" aria-label="Email">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <div class="hero-card-wrap">
+              <div class="code-card">
+                <div class="code-top">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  <span class="code-file">portfolio.js</span>
+                </div>
+                <pre><code><span class="c-key">const</span> developer = {
+  name: <span class="c-string">"Sindhuja"</span>,
+  role: <span class="c-string">"CSE Student"</span>,
+  focus: [
+    <span class="c-string">"AI / ML"</span>,
+    <span class="c-string">"Full Stack"</span>,
+    <span class="c-string">"Cybersecurity"</span>
+  ],
+  mindset: <span class="c-string">"Build • Learn • Improve"</span>
+};</code></pre>
+                <div class="floating-badge badge-ai"><i class="bi bi-cpu"></i> AI / ML</div>
+                <div class="floating-badge badge-web"><i class="bi bi-code-slash"></i> Full Stack</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-down" href="#about" aria-label="Scroll to about">
+        <i class="bi bi-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <span>01</span>
+          <div>
+            <p class="section-kicker">WHO I AM</p>
+            <h2>About <strong>Me</strong></h2>
+          </div>
+        </div>
+
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <div class="profile-panel">
+              <div class="profile-avatar">MS</div>
+              <div class="profile-line"></div>
+              <h3>Mekala Sindhuja</h3>
+              <p>Computer Science & Engineering</p>
+              <div class="mini-tags">
+                <span>AI/ML</span><span>Web Development</span><span>Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <p class="lead-text">
+              I am a final-year Computer Science & Engineering student who enjoys turning
+              ideas into working applications. My interests span AI/ML, computer vision,
+              RAG-based systems, cybersecurity and modern web development.
+            </p>
+            <p class="body-text">
+              I believe a good project should not only demonstrate technology, but should
+              also be useful, understandable and easy to use. I have worked on projects
+              involving computer vision, document intelligence, phishing detection,
+              fake-media detection and network security.
+            </p>
+
+            <div class="about-points row g-3 mt-2">
+              <div class="col-sm-6">
+                <div class="info-chip"><i class="bi bi-check2-circle"></i> Practical problem solving</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="info-chip"><i class="bi bi-check2-circle"></i> Continuous learning</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="info-chip"><i class="bi bi-check2-circle"></i> Team collaboration</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="info-chip"><i class="bi bi-check2-circle"></i> Clean & responsive UI</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section-pad section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span>02</span>
+          <div>
+            <p class="section-kicker">MY JOURNEY</p>
+            <h2>Education</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"><i class="bi bi-mortarboard-fill"></i></div>
+            <div class="timeline-card">
+              <div class="d-flex flex-wrap justify-content-between gap-2">
+                <h3>B.Tech — Computer Science & Engineering</h3>
+                <span class="timeline-date">2023 — 2027</span>
+              </div>
+              <p class="institution">Stanley College of Engineering & Technology for Women, Hyderabad</p>
+              <p>
+                Building a strong foundation in programming, data structures, databases,
+                web technologies, AI/ML, cybersecurity and software engineering.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"><i class="bi bi-book-fill"></i></div>
+            <div class="timeline-card">
+              <div class="d-flex flex-wrap justify-content-between gap-2">
+                <h3>Intermediate / Higher Secondary</h3>
+                <span class="timeline-date">Completed</span>
+              </div>
+              <p class="institution">Academic foundation in Mathematics, Physics & Computer Science</p>
+              <p>Developed analytical thinking and an early interest in technology and programming.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <span>03</span>
+          <div>
+            <p class="section-kicker">WHAT I USE</p>
+            <h2>Technical <strong>Skills</strong></h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-code-square"></i></div>
+              <h3>Languages</h3>
+              <div class="skill-tags"><span>Python</span><span>Java</span><span>C</span><span>JavaScript</span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-window-stack"></i></div>
+              <h3>Web</h3>
+              <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>React</span><span>FastAPI</span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-robot"></i></div>
+              <h3>AI / ML</h3>
+              <div class="skill-tags"><span>YOLO</span><span>TensorFlow</span><span>RAG</span><span>LLMs</span><span>OpenCV</span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-database-fill"></i></div>
+              <h3>Tools & Data</h3>
+              <div class="skill-tags"><span>Git</span><span>GitHub</span><span>SQL</span><span>SQLite</span><span>ChromaDB</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-progress-wrap mt-5">
+          <div class="progress-row">
+            <div><span>Python & AI/ML</span><strong>85%</strong></div>
+            <div class="progress"><div class="progress-bar" data-width="85"></div></div>
+          </div>
+          <div class="progress-row">
+            <div><span>Web Development</span><strong>80%</strong></div>
+            <div class="progress"><div class="progress-bar" data-width="80"></div></div>
+          </div>
+          <div class="progress-row">
+            <div><span>Problem Solving</span><strong>75%</strong></div>
+            <div class="progress"><div class="progress-bar" data-width="75"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-pad section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span>04</span>
+          <div>
+            <p class="section-kicker">SELECTED WORK</p>
+            <h2>Featured <strong>Projects</strong></h2>
+          </div>
+        </div>
+
+        <div class="filter-wrap mb-4" role="group" aria-label="Project filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ai">AI / ML</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="security">Security</button>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+          <div class="col-md-6 col-lg-4 project-item" data-category="ai web">
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-shield-check"></i></div>
+                <span class="project-number">01</span>
+              </div>
+              <h3>VisionDesk AI</h3>
+              <p>
+                Multimodal workplace safety intelligence platform using computer vision,
+                RAG and LLMs to detect PPE violations and provide safety recommendations.
+              </p>
+              <div class="project-stack"><span>YOLO</span><span>FastAPI</span><span>React</span><span>RAG</span></div>
+              <a href="https://github.com/mekalasindhuja70/VisionDeskAI" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 project-item" data-category="ai web">
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-image"></i></div>
+                <span class="project-number">02</span>
+              </div>
+              <h3>Fake Media Detector</h3>
+              <p>
+                Image authenticity detection application using EfficientNetB0 and
+                Grad-CAM to classify real/fake media and visualize model attention.
+              </p>
+              <div class="project-stack"><span>TensorFlow</span><span>Flask</span><span>Grad-CAM</span><span>SQLite</span></div>
+              <a href="https://github.com/mekalasindhuja70/fake-media-detector" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 project-item" data-category="security">
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                <span class="project-number">03</span>
+              </div>
+              <h3>Network Port Scanner</h3>
+              <p>
+                Desktop TCP port-scanning utility with multithreading, service labels,
+                progress tracking, cancellation and result export.
+              </p>
+              <div class="project-stack"><span>Python</span><span>Tkinter</span><span>TCP</span><span>Threads</span></div>
+              <a href="https://github.com/mekalasindhuja70/NetworkScanner" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 project-item" data-category="security ai">
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-link-45deg"></i></div>
+                <span class="project-number">04</span>
+              </div>
+              <h3>Phishing Website Detector</h3>
+              <p>
+                Machine-learning application that extracts URL features and predicts
+                whether a website is legitimate or potentially phishing.
+              </p>
+              <div class="project-stack"><span>Python</span><span>Random Forest</span><span>Streamlit</span><span>URL Features</span></div>
+              <a href="#contact" class="project-link">Project Details <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <span>05</span>
+          <div>
+            <p class="section-kicker">MILESTONES</p>
+            <h2>Achievements & <strong>Experience</strong></h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="achievement-card">
+              <div class="achievement-icon"><i class="bi bi-award-fill"></i></div>
+              <h3>AI/ML Projects</h3>
+              <p>Hands-on experience building computer vision, ML and document-intelligence applications.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="achievement-card">
+              <div class="achievement-icon"><i class="bi bi-laptop-fill"></i></div>
+              <h3>Internship Projects</h3>
+              <p>Applied software-development concepts through practical internship and academic projects.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="achievement-card">
+              <div class="achievement-icon"><i class="bi bi-github"></i></div>
+              <h3>Open Source Portfolio</h3>
+              <p>Maintaining project repositories and documenting implementations using Git and GitHub.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-pad contact-section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span>06</span>
+          <div>
+            <p class="section-kicker">GET IN TOUCH</p>
+            <h2>Let's <strong>Connect</strong></h2>
+          </div>
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h3 class="contact-title">Have an idea or opportunity?</h3>
+            <p class="body-text">
+              I'm always interested in learning, collaborating and working on meaningful
+              technology projects. Send me a message and I'll get back to you.
+            </p>
+
+            <div class="contact-info">
+              <a href="mailto:mekalasindhuja70@gmail.com">
+                <span><i class="bi bi-envelope-fill"></i></span>
+                <div><small>Email</small><strong>mekalasindhuja70@gmail.com</strong></div>
+              </a>
+              <a href="https://github.com/mekalasindhuja70" target="_blank" rel="noopener">
+                <span><i class="bi bi-github"></i></span>
+                <div><small>GitHub</small><strong>github.com/mekalasindhuja70</strong></div>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                <span><i class="bi bi-linkedin"></i></span>
+                <div><small>LinkedIn</small><strong>LinkedIn Profile</strong></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" id="subject" class="form-control" placeholder="What would you like to discuss?" required>
+                  <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" class="form-control" rows="5" placeholder="Write your message..." required minlength="10"></textarea>
+                  <div class="invalid-feedback">Please enter at least 10 characters.</div>
+                </div>
+                <div class="col-12 d-flex align-items-center gap-3 flex-wrap">
+                  <button type="submit" class="btn btn-primary-custom">
+                    Send Message <i class="bi bi-send-fill ms-2"></i>
+                  </button>
+                  <span id="formStatus" class="form-status" aria-live="polite"></span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">© <span id="currentYear"></span> Mekala Sindhuja. Built with HTML, CSS, Bootstrap & JavaScript.</p>
+      <div class="footer-links">
+        <a href="#home">Back to top <i class="bi bi-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
